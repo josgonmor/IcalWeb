@@ -1,0 +1,97 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    body{
+        background-color: aqua;
+        padding: 1vw;
+    }
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+/* css for ical*/
+.cal-wrapper{
+    width: 75%;
+    max-width: 85%;
+    border: 0.2vw solid black;
+    padding: 4vw;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.6vw;
+    margin-bottom: 1.4vw;
+}
+
+
+.weeks ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.4vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.weeks ul li{
+    list-style: none;
+    text-align: center;
+    width: calc(98%/7);
+}
+
+.days{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 0.15vw solid red;
+}
+
+.day-box{
+    width: calc(99%/7);
+    height: 10vw;
+    border: 0.17vw solid black;
+    overflow: auto;
+    margin-bottom: 0.2vw;
+}
+
+.day-box span{
+    color: rgb(221, 9, 179);
+    font-size: 1.3vw;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.day-box p{
+    font-size: 1.4vw;
+    
+}
+
+
+
+/*css for todo*/
+
+.todo-wrapper{
+    border: 0.2vw solid green;
+    width: 24%;
+    height: 100;
+    padding: 2vw;
+    text-align: center;
+    overflow: auto;
+}
+
+.todo-wrapper li{
+    list-style: none;
+    text-align: justify;
+    font-size: 1.7vw;
+}
+
+.todo-title{
+    margin: auto;
+}
